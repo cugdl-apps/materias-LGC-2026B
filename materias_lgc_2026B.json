@@ -1,0 +1,450 @@
+[
+    {
+        "CRN": 214395,
+        "CLAVE": "I7762",
+        "MATERIA": "ANALISIS DE LA ORGANIZACION DEL ESTADO",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214677,
+        "CLAVE": "I7763",
+        "MATERIA": "ANALISIS DE LOS CONTEXTOS DE LA CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 234566,
+        "CLAVE": "I7763",
+        "MATERIA": "ANALISIS DE LOS CONTEXTOS DE LA CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 215003,
+        "CLAVE": "I7764",
+        "MATERIA": "CONFORMACION Y MANEJO DE GRUPOS DE TRABAJO",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214403,
+        "CLAVE": "I7765",
+        "MATERIA": "CONSTRUCCION DEL CONCEPTO DE CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 234568,
+        "CLAVE": "I7765",
+        "MATERIA": "CONSTRUCCION DEL CONCEPTO DE CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214387,
+        "CLAVE": "I7766",
+        "MATERIA": "GESTION DE RECURSOS",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214354,
+        "CLAVE": "I7767",
+        "MATERIA": "GESTION DE RECURSOS INFORMATIVOS",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 215079,
+        "CLAVE": "I7768",
+        "MATERIA": "LIDERAZGO PARA EL DESARROLLO",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 8
+    },
+    {
+        "CRN": 214774,
+        "CLAVE": "I7769",
+        "MATERIA": "SISTEMATIZACION DE LA ACCION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA COMUN OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214911,
+        "CLAVE": "I7770",
+        "MATERIA": "ANALISIS DE LA GESTION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 234567,
+        "CLAVE": "I7770",
+        "MATERIA": "ANALISIS DE LA GESTION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214799,
+        "CLAVE": "I7771",
+        "MATERIA": "ANALISIS DE LA LEGISLACION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 11
+    },
+    {
+        "CRN": 214947,
+        "CLAVE": "I7772",
+        "MATERIA": "ANALISIS DE POLITICAS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 235406,
+        "CLAVE": "I7772",
+        "MATERIA": "ANALISIS DE POLITICAS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214358,
+        "CLAVE": "I7773",
+        "MATERIA": "ANALISIS DEL SISTEMA DE PRODUCCION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 8
+    },
+    {
+        "CRN": 214514,
+        "CLAVE": "I7773",
+        "MATERIA": "ANALISIS DEL SISTEMA DE PRODUCCION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 8
+    },
+    {
+        "CRN": 215096,
+        "CLAVE": "D0587",
+        "MATERIA": "COMUNICACION DE LA CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 11
+    },
+    {
+        "CRN": 214996,
+        "CLAVE": "I7774",
+        "MATERIA": "COOPERACION CULTURAL INTERNACIONAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214391,
+        "CLAVE": "I7775",
+        "MATERIA": "DESARROLLO DE ENTORNOS CULTURALES VIRTUALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 8
+    },
+    {
+        "CRN": 214517,
+        "CLAVE": "I7776",
+        "MATERIA": "ECONOMIA DE LA CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 235405,
+        "CLAVE": "I7776",
+        "MATERIA": "ECONOMIA DE LA CULTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214370,
+        "CLAVE": "I7777",
+        "MATERIA": "EVALUACION DE IMPACTO DE PROYECTOS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214847,
+        "CLAVE": "I7778",
+        "MATERIA": "EVALUACION DE VIABILIDAD DE PROYECTOS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214658,
+        "CLAVE": "I7779",
+        "MATERIA": "FORMACION DE PUBLICOS",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 235404,
+        "CLAVE": "I7779",
+        "MATERIA": "FORMACION DE PUBLICOS",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214994,
+        "CLAVE": "I7780",
+        "MATERIA": "GESTION DE REDES DE COOPERACION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214983,
+        "CLAVE": "I7781",
+        "MATERIA": "MERCADEO CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 215029,
+        "CLAVE": "D0601",
+        "MATERIA": "ORGANIZACION DE SERVICIOS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214385,
+        "CLAVE": "I7782",
+        "MATERIA": "PLANIFICACION Y ADMINISTRACION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214512,
+        "CLAVE": "I7782",
+        "MATERIA": "PLANIFICACION Y ADMINISTRACION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 214885,
+        "CLAVE": "I7783",
+        "MATERIA": "PROFESIONALIZACION DE LA GESTION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 10
+    },
+    {
+        "CRN": 215023,
+        "CLAVE": "I7784",
+        "MATERIA": "PROYECTO I",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 215151,
+        "CLAVE": "I7784",
+        "MATERIA": "PROYECTO I",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 235507,
+        "CLAVE": "I7784",
+        "MATERIA": "PROYECTO I",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 215150,
+        "CLAVE": "I7784",
+        "MATERIA": "PROYECTO I",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214765,
+        "CLAVE": "I7785",
+        "MATERIA": "PROYECTO II",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 237585,
+        "CLAVE": "I7785",
+        "MATERIA": "PROYECTO II",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214660,
+        "CLAVE": "I7786",
+        "MATERIA": "PROYECTO III",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 215075,
+        "CLAVE": "I7786",
+        "MATERIA": "PROYECTO III",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214890,
+        "CLAVE": "I7787",
+        "MATERIA": "PROYECTO IV",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214893,
+        "CLAVE": "I7788",
+        "MATERIA": "PROYECTO V",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214523,
+        "CLAVE": "I7789",
+        "MATERIA": "PROYECTO VI",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214508,
+        "CLAVE": "I7790",
+        "MATERIA": "PROYECTO VII",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 214882,
+        "CLAVE": "I7791",
+        "MATERIA": "PROYECTO VIII",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "BASICA PARTICULAR OBLIGATORIA",
+        "CREDITOS": 12
+    },
+    {
+        "CRN": 218605,
+        "CLAVE": "I7797",
+        "MATERIA": "COMUNICACION INSTITUCIONAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "ESPECIALIZANTE SELECTIVA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214356,
+        "CLAVE": "I7801",
+        "MATERIA": "GESTION DE ESPACIOS ESCENICOS",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "ESPECIALIZANTE SELECTIVA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214986,
+        "CLAVE": "I7805",
+        "MATERIA": "GESTION DEL PATRIMONIO CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "ESPECIALIZANTE SELECTIVA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214644,
+        "CLAVE": "I7807",
+        "MATERIA": "INTRODUCCION A LA ESTETICA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "ESPECIALIZANTE SELECTIVA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214338,
+        "CLAVE": "I7814",
+        "MATERIA": "SEMINARIO DE MODELOS DE GESTION CULTURAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "ESPECIALIZANTE SELECTIVA",
+        "CREDITOS": 9
+    },
+    {
+        "CRN": 214519,
+        "CLAVE": "I7751",
+        "MATERIA": "LABORATORIO II - PROMOCIÓN DE LA CULTURA POPULAR",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    },
+    {
+        "CRN": 214796,
+        "CLAVE": "I7754",
+        "MATERIA": "SEMINARIO I - EDUCACIÓN ARTISTICA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    },
+    {
+        "CRN": 218758,
+        "CLAVE": "I7756",
+        "MATERIA": "SEMINARIO III - DIVULGACIÓN DE LA CIENCIA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    },
+    {
+        "CRN": 214363,
+        "CLAVE": "I7757",
+        "MATERIA": "SEMINARIO IV - PROPIEDAD INTELECTUAL",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    },
+    {
+        "CRN": 214379,
+        "CLAVE": "I7758",
+        "MATERIA": "TALLER I - CREACIÓN DE EMPRESAS CULTURALES",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    },
+    {
+        "CRN": 214980,
+        "CLAVE": "I7759",
+        "MATERIA": "TALLER II - ESTRATEGIAS PARA LA RECREACIÓN",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
+    }
+]
