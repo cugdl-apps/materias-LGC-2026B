@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Materias LGC 2026B</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="https://cdn.tailwindcss.com"></script>
+<title>Materias LGC 2026B</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html{
+  scroll-behavior:smooth;
+}
+
+.sticky-header{
+  position:sticky;
+  top:0;
+  z-index:20;
+}
+
+@media (max-width: 767px){
+  .desktop-table{
+    display:none;
+  }
+}
+
+@media (min-width: 768px){
+  .mobile-cards{
+    display:none;
+  }
+}
+</style>
 </head>
 
 <body class="bg-zinc-50 text-zinc-900">
@@ -13,52 +38,132 @@
 <div class="min-h-screen p-4">
 
   <!-- HEADER -->
+
   <div class="max-w-5xl mx-auto text-center mb-6">
-    <h1 class="text-2xl font-semibold">Licenciatura en Gestión Cultural</h1>
 
-    <p class="text-sm text-zinc-600">
-      Información para tu registro de materias 2026B
+    <h1 class="text-3xl font-bold">
+      Licenciatura en Gestión Cultural
+    </h1>
+
+    <p class="mt-2 text-zinc-600">
+      Información para tu registro de materias <strong>2026B</strong>
     </p>
 
-    <p class="text-sm text-zinc-600">
-      Máximo puedes agendar 90 créditos y mínimo 30 créditos
+    <p class="text-zinc-600">
+      Máximo puedes agendar <strong>90 créditos</strong> y mínimo
+      <strong>30 créditos</strong>
     </p>
 
-    <p class="text-sm">
-    <span class="font-semibold text-stone-700">
-        Importante: este recurso es para fines de que puedas conocer las materias disponibles,
-        <span class="text-red-900 font-bold">
-        debes realizar tu registro en SIIAU-LEO
-        </span>
-    </span>
-    </p>
+    <div class="mt-4 p-4 rounded-xl bg-amber-50 border border-amber-200">
+      <p class="font-semibold text-amber-900">
+        Importante
+      </p>
 
-    <p class="text-sm text-zinc-600">
-      Dudas:
-      <a href="mailto:lgc@cugdl.udg.mx" class="text-blue-600 font-medium hover:underline">
-        lgc@cugdl.udg.mx
-      </a>
-    </p>
+      <p class="mt-1 text-sm text-amber-800">
+        Este recurso es únicamente para conocer las materias disponibles.
+        El registro oficial debe realizarse en
+        <span class="font-bold text-red-700">
+          SIIAU-LEO
+        </span>.
+      </p>
+    </div>
+
+    <div class="mt-4 p-4 rounded-xl bg-blue-50 border border-blue-200 text-left text-sm">
+
+      <p>
+        <strong>Registro de materias:</strong><br>
+        15 al 19 de junio
+      </p>
+
+      <p class="mt-3">
+        <strong>Dudas:</strong>
+        <a
+          href="mailto:lgc@cugdl.udg.mx"
+          class="text-blue-600 hover:underline"
+        >
+          lgc@cugdl.udg.mx
+        </a>
+      </p>
+
+      <p class="mt-3">
+        <strong>LEO (usar en navegador de computadora):</strong><br>
+        <a
+          href="https://leoalumnos.udg.mx/login"
+          target="_blank"
+          class="text-blue-600 hover:underline break-all"
+        >
+          https://leoalumnos.udg.mx/login
+        </a>
+      </p>
+
+      <p class="mt-3">
+        <strong>App LEO Android:</strong><br>
+        <a
+          href="https://play.google.com/store/apps/details?id=mx.udg.cgsait.leo"
+          target="_blank"
+          class="text-blue-600 hover:underline"
+        >
+          Descargar Android
+        </a>
+      </p>
+
+      <p class="mt-3">
+        <strong>App LEO iOS:</strong><br>
+        <a
+          href="https://apps.apple.com/mx/app/leo-udeg/id6459532274"
+          target="_blank"
+          class="text-blue-600 hover:underline"
+        >
+          Descargar iPhone / iPad
+        </a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Tutorial registro de materias:</strong><br>
+        <a
+          href="https://www.youtube.com/watch?v=7mTkMPwII84"
+          target="_blank"
+          class="text-blue-600 hover:underline"
+        >
+          Ver tutorial
+        </a>
+      </p>
+
+    </div>
+
   </div>
 
   <!-- STATS -->
+
   <div class="max-w-5xl mx-auto mb-4 bg-white p-4 rounded-xl shadow-sm">
 
-    <div class="flex flex-col gap-1">
+    <div class="grid md:grid-cols-2 gap-2">
+
       <p class="font-medium">
         Créditos seleccionados:
-        <span id="total" class="text-blue-600">0</span>
+        <span id="total" class="text-blue-600">
+          0
+        </span>
       </p>
 
       <p class="font-medium">
         Materias seleccionadas:
-        <span id="count" class="text-blue-600">0</span>
+        <span id="count" class="text-blue-600">
+          0
+        </span>
       </p>
+
     </div>
 
-    <div class="mt-3 text-sm">
-      <p class="font-medium mb-1">Por área:</p>
-      <div id="areas" class="text-zinc-700"></div>
+    <div class="mt-4">
+      <p class="font-medium mb-2">
+        Créditos por área
+      </p>
+
+      <div
+        id="areas"
+        class="text-sm text-zinc-700 space-y-1"
+      ></div>
     </div>
 
     <button
@@ -71,114 +176,268 @@
   </div>
 
   <!-- SEARCH -->
+
   <div class="max-w-5xl mx-auto mb-4">
     <input
       id="search"
-      placeholder="Buscar materia, clave, área..."
+      type="text"
+      placeholder="Buscar materia, clave, área o CRN..."
       class="w-full p-3 rounded-xl border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-zinc-300"
-    />
+    >
   </div>
 
-  <!-- TABLE -->
-  <div class="max-w-5xl mx-auto bg-white rounded-xl shadow-sm overflow-x-auto">
-    <table class="w-full text-sm">
-      <thead class="bg-zinc-100 text-left">
-        <tr>
-          <th class="p-3"></th>
-          <th class="p-3">CRN</th>
-          <th class="p-3">Clave</th>
-          <th class="p-3">Materia</th>
-          <th class="p-3">Área</th>
-          <th class="p-3">Créditos</th>
-        </tr>
-      </thead>
-      <tbody id="table"></tbody>
-    </table>
+  <!-- DESKTOP TABLE -->
+
+  <div class="desktop-table max-w-5xl mx-auto bg-white rounded-xl shadow-sm overflow-hidden">
+
+    <div class="overflow-auto max-h-[70vh]">
+
+      <table class="w-full text-sm">
+
+        <thead class="bg-zinc-100 sticky-header">
+          <tr>
+            <th class="p-3"></th>
+            <th class="p-3 text-left">CRN</th>
+            <th class="p-3 text-left">Clave</th>
+            <th class="p-3 text-left">Materia</th>
+            <th class="p-3 text-left">Área</th>
+            <th class="p-3 text-left">Créditos</th>
+          </tr>
+        </thead>
+
+        <tbody id="desktopTable"></tbody>
+
+      </table>
+
+    </div>
+
   </div>
+
+  <!-- MOBILE CARDS -->
+
+  <div
+    id="mobileCards"
+    class="mobile-cards max-w-5xl mx-auto space-y-3"
+  ></div>
 
 </div>
 
 <script>
+
 let materias = [];
 let filtered = [];
 
-fetch('materias_lgc_2026B.json')
+const desktopTable =
+  document.getElementById("desktopTable");
+
+const mobileCards =
+  document.getElementById("mobileCards");
+
+const search =
+  document.getElementById("search");
+
+fetch("materias_lgc_2026B.json")
   .then(r => r.json())
   .then(data => {
-    materias = data.map(m => ({ ...m, selected: false }));
-    filtered = materias;
+
+    materias = data.map(m => ({
+      ...m,
+      selected:false
+    }));
+
+    filtered = [...materias];
+
     render();
+
   });
 
-const table = document.getElementById("table");
-const search = document.getElementById("search");
-
 search.addEventListener("input", () => {
-  const term = search.value.toLowerCase().trim();
+
+  const term =
+    search.value.toLowerCase().trim();
 
   filtered = materias.filter(m =>
     Object.values(m).some(v =>
-      String(v).toLowerCase().includes(term)
+      String(v)
+      .toLowerCase()
+      .includes(term)
     )
   );
 
   render();
+
 });
 
-function toggle(index) {
-  filtered[index].selected = !filtered[index].selected;
+function toggle(index){
+
+  filtered[index].selected =
+    !filtered[index].selected;
+
   renderStats();
-}
 
-function clearSelection() {
-  materias.forEach(m => m.selected = false);
   render();
+
 }
 
-function render() {
-  table.innerHTML = "";
+function clearSelection(){
 
-  filtered.forEach((m, i) => {
-    table.innerHTML += `
+  materias.forEach(m => {
+    m.selected = false;
+  });
+
+  render();
+
+}
+
+function render(){
+
+  renderDesktop();
+
+  renderMobile();
+
+  renderStats();
+
+}
+
+function renderDesktop(){
+
+  desktopTable.innerHTML = "";
+
+  filtered.forEach((m,i)=>{
+
+    desktopTable.innerHTML += `
       <tr class="border-t hover:bg-zinc-50">
+
         <td class="p-3">
-          <input type="checkbox" ${m.selected ? "checked" : ""}
-            onchange="toggle(${i})">
+          <input
+            type="checkbox"
+            ${m.selected ? "checked" : ""}
+            onchange="toggle(${i})"
+          >
         </td>
+
         <td class="p-3">${m.CRN}</td>
+
         <td class="p-3">${m.CLAVE}</td>
-        <td class="p-3 font-medium">${m.MATERIA}</td>
-        <td class="p-3 text-zinc-600">${m.AREA}</td>
-        <td class="p-3">${m.CREDITOS}</td>
+
+        <td class="p-3 font-medium">
+          ${m.MATERIA}
+        </td>
+
+        <td class="p-3 text-zinc-600">
+          ${m.AREA}
+        </td>
+
+        <td class="p-3">
+          ${m.CREDITOS}
+        </td>
+
       </tr>
     `;
   });
 
-  renderStats();
 }
 
-function renderStats() {
+function renderMobile(){
+
+  mobileCards.innerHTML = "";
+
+  filtered.forEach((m,i)=>{
+
+    mobileCards.innerHTML += `
+
+      <div class="bg-white rounded-xl shadow-sm p-4">
+
+        <div class="flex gap-3">
+
+          <input
+            type="checkbox"
+            class="mt-1"
+            ${m.selected ? "checked" : ""}
+            onchange="toggle(${i})"
+          >
+
+          <div class="flex-1">
+
+            <h3 class="font-semibold text-zinc-900">
+              ${m.MATERIA}
+            </h3>
+
+            <div class="mt-2 text-sm text-zinc-600">
+
+              <p>
+                <strong>CRN:</strong>
+                ${m.CRN}
+              </p>
+
+              <p>
+                <strong>Clave:</strong>
+                ${m.CLAVE}
+              </p>
+
+              <p>
+                <strong>Área:</strong>
+                ${m.AREA}
+              </p>
+
+              <p class="font-medium text-blue-600 mt-1">
+                ${m.CREDITOS} créditos
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    `;
+  });
+
+}
+
+function renderStats(){
+
   let total = 0;
   let count = 0;
   let areas = {};
 
-  materias.forEach(m => {
-    if (m.selected) {
-      total += m.CREDITOS;
+  materias.forEach(m=>{
+
+    if(m.selected){
+
+      total += Number(m.CREDITOS);
+
       count++;
 
-      areas[m.AREA] = (areas[m.AREA] || 0) + m.CREDITOS;
+      areas[m.AREA] =
+        (areas[m.AREA] || 0)
+        + Number(m.CREDITOS);
+
     }
+
   });
 
-  document.getElementById("total").innerText = total;
-  document.getElementById("count").innerText = count;
+  document.getElementById("total")
+    .textContent = total;
 
-  document.getElementById("areas").innerHTML =
-    Object.entries(areas)
-      .map(([k, v]) => `<div>${k}: <b>${v}</b></div>`)
-      .join("");
+  document.getElementById("count")
+    .textContent = count;
+
+  document.getElementById("areas")
+    .innerHTML = Object.entries(areas)
+    .map(([area,creditos]) => `
+      <div>
+        ${area}: <strong>${creditos}</strong>
+      </div>
+    `)
+    .join("");
+
 }
+
+window.addEventListener("resize", render);
+
 </script>
 
 </body>
