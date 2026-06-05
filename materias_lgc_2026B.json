@@ -446,5 +446,13 @@
         "PROGRAMA EDUCATIVO": "LGC",
         "AREA": "OPTATIVA ABIERTA",
         "CREDITOS": 7
+    },
+    {
+        "CRN": 3000,
+        "CLAVE": "I7760",
+        "MATERIA": "TALLER III - PROMOCIÓN DE LA LECTURA",
+        "PROGRAMA EDUCATIVO": "LGC",
+        "AREA": "OPTATIVA ABIERTA",
+        "CREDITOS": 7
     }
 ]
